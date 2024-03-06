@@ -1,0 +1,17 @@
+/* footer.module.css */
+
+.foo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(233, 104, 6, 0.841);
+    text-align: center;
+}
+
+.foo p {
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+}
+

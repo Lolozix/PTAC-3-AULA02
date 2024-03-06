@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 
-    imagens: {
+   images: {
         domains: [
-            "www.ifms.edu.br"
+            "www.ifms.edu.br",
+            "ead.ifms.edu.br"
         ]
     }
 }

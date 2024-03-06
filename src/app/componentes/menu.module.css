@@ -1,8 +1,9 @@
 
 .cabecalho{
+    
     display: flex;
     height: 100px;
-    background-color: blue;
+    background-color: rgba(0, 255, 166, 0.651);
 }
 
 .cabecalho h1{
