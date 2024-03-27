@@ -1,5 +1,5 @@
 import Menu from "./components/Menu";
-import Rodape from "./components/Rodape";
+import Rodape from "./components/Footer";
 
 export default function Layout({ children }) {
   return (

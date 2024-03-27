@@ -1,22 +1,11 @@
-export default async function Home() {
+import Layout from './components/Layout'; 
+import Rodape from './components/Rodape';
 
-  const resposta = await fetch("https://back-end-ifms.vercel.app/campi", {
-    next: {
-      revalidate: 1
-    }
-  });
-    const campi = await resposta.json();
-
-    return (
-      <main>
-        <h1>Home</h1>
-        {
-          campi.map((campus) =>
-            <div>
-              <p>{campus.nome_campi}</p>
-            </div>
-        )
-      }
-    </main>
-  )
+export default function Page({ children }) {
+  return (
+    <Layout>
+      {children}
+      <Rodape />
+    </Layout>
+  );
 }
